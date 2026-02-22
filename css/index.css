@@ -75,9 +75,28 @@ main {
 }
 
 .aboutus {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 .content-image {
   width: 80vw;
+}
+
+.aboutus p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  height: 8vh;
+  align-content: center;
+}
+footer P {
+  font-size: 0.7rem;
+  text-align: center;
 }
