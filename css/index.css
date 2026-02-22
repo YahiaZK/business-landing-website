@@ -1,0 +1,41 @@
+:root {
+  --main-button-bg: #f7a542;
+}
+
+.hero {
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  margin-right: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.hero-text {
+  font-weight: bold;
+}
+
+.hero-button {
+  padding: 10px 42px;
+  width: fit-content;
+  align-self: center;
+  font-weight: bold;
+  background-color: var(--main-button-bg);
+  border-color: #f7a64288;
+}
