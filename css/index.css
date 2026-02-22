@@ -1,4 +1,5 @@
 :root {
+  --primary-color: #214477;
   --main-button-bg: #f7a542;
 }
 
@@ -20,7 +21,7 @@
 .hero-content {
   position: absolute;
   margin-right: 20px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -38,4 +39,45 @@
   font-weight: bold;
   background-color: var(--main-button-bg);
   border-color: #f7a64288;
+}
+
+main {
+  margin: 30px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  gap: 15px 0px;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 150px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-upper {
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-lower {
+  padding: 20px;
+}
+
+.aboutus {
+  text-align: center;
+}
+
+.content-image {
+  width: 80vw;
 }
