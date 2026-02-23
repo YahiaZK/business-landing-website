@@ -46,3 +46,9 @@ footer P {
   font-size: 0.7rem;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  * {
+    font-size: 1.1rem;
+  }
+}

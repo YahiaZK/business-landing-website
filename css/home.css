@@ -42,7 +42,8 @@
 }
 
 main {
-  margin: 30px 12px;
+  margin: 30px auto;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -88,4 +89,40 @@ main {
 
 .aboutus p {
   text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    height: 100vh;
+  }
+
+  main{
+    width: 80vw;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .aboutus {
+    display: block;
+  }
+
+  .aboutus p {
+    margin-bottom: 14px;
+  }
+
+  .content-image {
+    width: 50vw;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
 }
