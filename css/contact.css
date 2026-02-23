@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #214477;
+  --main-button-bg: #f7a542;
+}
+
+.hero {
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 2rem;
+}
+
+main {
+  margin: 12px 21px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 21px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.input-field {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 2rem;
+}
+
+.textarea-container {
+  display: flex;
+  gap: 5px;
+}
+
+textarea {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 13rem;
+}
+
+.form-button {
+  padding: 12px;
+  background-color: var(--main-button-bg);
+  border: 1px solid #f7a542;
+  border-radius: 12px;
+  width: 12rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
