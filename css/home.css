@@ -5,7 +5,7 @@
 
 .hero {
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -102,7 +102,11 @@ main {
     height: 100vh;
   }
 
-  main{
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  main {
     width: 80vw;
   }
 
